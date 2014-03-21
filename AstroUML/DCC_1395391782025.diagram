@@ -1,13 +1,13 @@
-<XMI xmi.version="1.2"  xmlns:UML="org.omg.xmi.namespace.UML"  timestamp="21 mars 2014 09:53:02 CET" >
+<XMI xmi.version="1.2"  xmlns:UML="org.omg.xmi.namespace.UML"  timestamp="21 mars 2014 10:23:07 CET" >
 <XMI.content>
-<UML:Diagram isVisible="false"  zoom="1.0"  name="DCC"  xmi.id="DCE.32D6C699-D8B0-4A97-B85D-AD8F1DC470A1" >
+<UML:Diagram isVisible="false"  zoom="1.0"  name="DCC"  documentation=""  xmi.id="DCE.32D6C699-D8B0-4A97-B85D-AD8F1DC470A1" >
 <UML:GraphElement.position>
      <XMI.field>0</XMI.field>
      <XMI.field>0</XMI.field>
 </UML:GraphElement.position>
 <UML:GraphNode.size>
-     <XMI.field>1443</XMI.field>
-     <XMI.field>815</XMI.field>
+     <XMI.field>1407</XMI.field>
+     <XMI.field>816</XMI.field>
 </UML:GraphNode.size>
 <UML:Diagram.viewport>
      <XMI.field>0</XMI.field>
@@ -89,10 +89,12 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.F9C07943-8C84-4B8C-ECCB-38F8CC3C32CB"  typeinfo="Attributes" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.7C62DAA8-79C5-DA6A-4764-F6D2BFD708E0" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.84FC1669-1F84-120A-8DDC-EF4C31B8CB9F" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -104,10 +106,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.1B10699F-2ED6-338A-13F0-6F3F04074956" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.EDAC4252-6546-C9AE-F165-C3B50C3FAF45" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -119,10 +123,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.9ED5D9EA-B937-286D-8ECC-4C1C959FC9D8" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.FDD85919-305D-9345-B0F7-A88381F8E283" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -134,10 +140,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.3A413227-472D-46B8-EB11-FBB277D096BC" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.3194314E-1C8E-5C70-2C1E-8F5E5ADB8210" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -156,10 +164,12 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.F9C07943-8C84-4B8C-ECCB-38F8CC3C32CB"  typeinfo="Operations" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.FF59529F-8DD0-79E6-7214-6E7E238E2BE4" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.3A62E117-7C77-8DA5-5639-756F091BD6A9" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -171,10 +181,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.6CCC3BA6-90A1-AE9E-4F67-C878FDBE0D96" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.B71744D4-D6E2-0172-85D6-589E63880F63" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -186,10 +198,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.BDC479E4-05AE-C680-B3CE-28B46DE35AB5" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.3FDED0E2-5666-12DA-2BF9-66E8D5333E74" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -201,10 +215,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.667AEB46-6662-33B4-6101-24F3C7E52B41" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.B96AE461-C959-4C46-A712-37DBE1B0E5FF" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -216,10 +232,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.D9E50F7C-EF63-B553-6A5F-8921EF51A9F7" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.C05EB3F8-A4D6-6182-C65E-125EDDBD771E" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -231,10 +249,12 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.00DC6489-63EC-793B-19F0-0B9935E75E85" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.9F5E4C9B-7B72-1436-4A55-7D099134AC51" >
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -252,13 +272,13 @@
 <UML:GraphElement.dependencies>
 </UML:GraphElement.dependencies>
 <UML:GraphElement.anchorage>
-<UML:GraphConnector xmi.id="DCE.CCAB2C3B-9D1C-9972-0C1F-6C9EF094779B" >
+<UML:GraphConnector xmi.id="DCE.60103CBE-29D8-43E4-0189-A681CCF81127" >
 <UML:GraphConnector.position>
      <XMI.field>878</XMI.field>
      <XMI.field>268</XMI.field>
 </UML:GraphConnector.position>
 <UML:GraphConnector.graphEdge>
-<UML:GraphEdge xmi.idref="DCE.A1B77514-0630-C279-8AD5-54BA3B4ABB76" />
+<UML:GraphEdge xmi.idref="DCE.34D69187-7CE0-D53E-0750-DDBFF4F7CC6E" />
 </UML:GraphConnector.graphEdge>
 </UML:GraphConnector>
 </UML:GraphElement.anchorage>
@@ -273,8 +293,10 @@
      <XMI.field>149</XMI.field>
 </UML:GraphNode.size>
 <UML:DiagramElement.property>
+<UML:Property value="java.awt.Color[r=102,g=153,b=0]"  key="PACKAGEWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
+<UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="PACKAGEWIDGET.default.font" />
 <UML:Property value="MINIMUMSIZE"  key="ResizeMode" />
 <UML:Property value="1"  key="WIDGET_INDEX" />
 <UML:Property value="DEFAULT_VIEW"  key="ViewName" />
@@ -299,7 +321,7 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.BD430125-FED7-1E04-0985-1039A9A62577"  typeinfo="Attributes" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.B8AEB96D-A9DB-C088-1D34-9EA6D015B96F" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.D4F18A28-A814-6D32-C04F-2CC2C917C7AB" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -314,7 +336,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.11DAA65C-9AD6-349F-0488-01D6DA1A514D" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.F797B2B4-5318-DB3C-B603-AA2CCAB79313" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -329,7 +351,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.86B0772C-2639-5366-2257-033F1CAD86F0" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.59A45F67-5175-CF02-7269-6CA88D649CDF" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -351,7 +373,7 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.BD430125-FED7-1E04-0985-1039A9A62577"  typeinfo="Operations" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.923F849D-C153-25F7-F7DD-3A28E873C600" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.0FC71379-90F0-14EC-87A7-BB5FB49F875D" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -372,21 +394,21 @@
 <UML:GraphElement.dependencies>
 </UML:GraphElement.dependencies>
 <UML:GraphElement.anchorage>
-<UML:GraphConnector xmi.id="DCE.8CF20D75-3AAC-9D54-E3E2-DF462F95791F" >
+<UML:GraphConnector xmi.id="DCE.FBD96465-A9CB-E381-A269-D800ED5F54A5" >
 <UML:GraphConnector.position>
      <XMI.field>611</XMI.field>
      <XMI.field>519</XMI.field>
 </UML:GraphConnector.position>
 <UML:GraphConnector.graphEdge>
-<UML:GraphEdge xmi.idref="DCE.1DA11C9F-4ACD-A9CB-708A-77051E4FD388" />
+<UML:GraphEdge xmi.idref="DCE.DCE2A564-F929-C5D7-A24C-DC15F60BFF7C" />
 </UML:GraphConnector.graphEdge>
 </UML:GraphConnector>
 </UML:GraphElement.anchorage>
 </UML:GraphNode>
 <UML:GraphNode isVisible="true"  xmi.id="DCE.478B483D-8436-C65F-1AE6-E7304B9B3ECD" >
 <UML:GraphElement.position>
-     <XMI.field>771</XMI.field>
-     <XMI.field>491</XMI.field>
+     <XMI.field>730</XMI.field>
+     <XMI.field>482</XMI.field>
 </UML:GraphElement.position>
 <UML:GraphNode.size>
      <XMI.field>176</XMI.field>
@@ -419,7 +441,7 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.478B483D-8436-C65F-1AE6-E7304B9B3ECD"  typeinfo="Attributes" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.0E5E44FC-F082-7F94-7A52-AEE442C5FEA6" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.B9453108-183B-46DB-700C-FEE9A8057B22" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -434,7 +456,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.A3FBCB27-FA91-34D2-9810-55240C188E58" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.7850C90A-BD07-4098-3E7C-67C08DA58369" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -449,7 +471,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.B89367C3-BA02-4E4B-7EE4-6D4DBC0AE395" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.C26E9EFC-D7BC-BDAF-ADA0-5EDF766955BE" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -464,7 +486,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.A7B70F04-4FE0-7CAD-EE15-140913605D7E" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.B6E09965-3E15-E8C0-F9E8-B51ABA33A222" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -479,7 +501,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.5FBF16F3-E219-121C-AD86-FD50B4A22BA5" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.0747D6EB-45D5-DC7B-B681-1BFE95760A6A" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -494,7 +516,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.234FDBB1-D2A0-BE0E-DF3A-A3E3339E74EE" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.5F263C45-567C-AAD6-D9E7-C08EED9188A5" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -509,7 +531,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.FA0555BD-7CA8-0746-85D1-C4B73C71B4AA" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.7EA7B2F3-2C69-90AC-78B7-177C324511F2" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -531,7 +553,7 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.478B483D-8436-C65F-1AE6-E7304B9B3ECD"  typeinfo="Operations" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.9DC70C16-0E37-CE85-9318-16C7081A27AE" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.71D07D18-8568-30CE-CB89-7AA23FE3D8FF" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -546,7 +568,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.37DF542A-B916-4918-EC08-E9B67AEAE3F6" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.44126919-6EFD-AE4E-F43E-78DA6180A262" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -567,13 +589,13 @@
 <UML:GraphElement.dependencies>
 </UML:GraphElement.dependencies>
 <UML:GraphElement.anchorage>
-<UML:GraphConnector xmi.id="DCE.FB2699D6-CAA1-F738-3712-592AEC4416E4" >
+<UML:GraphConnector xmi.id="DCE.D6E0538C-B886-FEA6-3058-4951C49F7130" >
 <UML:GraphConnector.position>
-     <XMI.field>921</XMI.field>
-     <XMI.field>660</XMI.field>
+     <XMI.field>880</XMI.field>
+     <XMI.field>651</XMI.field>
 </UML:GraphConnector.position>
 <UML:GraphConnector.graphEdge>
-<UML:GraphEdge xmi.idref="DCE.A1B77514-0630-C279-8AD5-54BA3B4ABB76" />
+<UML:GraphEdge xmi.idref="DCE.34D69187-7CE0-D53E-0750-DDBFF4F7CC6E" />
 </UML:GraphConnector.graphEdge>
 </UML:GraphConnector>
 </UML:GraphElement.anchorage>
@@ -614,7 +636,7 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.4AD50D6A-BACB-DDFA-8B2D-DC546B542919"  typeinfo="Attributes" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.79ED3B28-2B9C-0DF1-9101-8AF78AA7D540" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.AEB164C9-D50E-4882-C28D-BD3A4518C15B" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -629,7 +651,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.96F8AC67-70E5-3046-2F55-907B330A5263" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.31FD0512-0421-243A-1D4B-9B2791393771" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -644,7 +666,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.B7CD3BDA-054C-2594-3893-7387B09ADE03" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.96C51E6C-3B62-AB1E-4468-826A60FC5894" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -666,7 +688,7 @@
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.4AD50D6A-BACB-DDFA-8B2D-DC546B542919"  typeinfo="Operations" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.4D7480C6-2689-2A74-C0F9-A293BD6ADF58" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.A866713B-C6C3-31E3-9383-ED459D463DDB" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -681,7 +703,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.54752AC3-3834-6653-CE93-8222F9F19D08" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.D1B6A0E7-D861-3C69-4167-F83DD2285E5C" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -696,7 +718,7 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphNode isVisible="true"  xmi.id="DCE.B4F14A21-A196-0382-12C4-0F429F425F9A" >
+<UML:GraphNode isVisible="true"  xmi.id="DCE.4A14B168-0705-A239-011A-8ED188B5C185" >
 <UML:DiagramElement.property>
 <UML:Property value="java.awt.Color[r=251,g=233,b=127]"  key="UMLCLASSWIDGET.default.bgcolor" />
 <UML:Property value="java.awt.Font[family=Dialog,name=Dialog,style=plain,size=14]"  key="UMLCLASSWIDGET.default.font" />
@@ -717,20 +739,20 @@
 <UML:GraphElement.dependencies>
 </UML:GraphElement.dependencies>
 <UML:GraphElement.anchorage>
-<UML:GraphConnector xmi.id="DCE.41E66E0D-96AD-54F4-04B4-7B8C55D2ED3A" >
+<UML:GraphConnector xmi.id="DCE.5B377DD3-10F5-4DC8-CD2A-0F8882310407" >
 <UML:GraphConnector.position>
      <XMI.field>323</XMI.field>
      <XMI.field>230</XMI.field>
 </UML:GraphConnector.position>
 <UML:GraphConnector.graphEdge>
-<UML:GraphEdge xmi.idref="DCE.5E8C3FC5-A845-4938-1C67-45B5562865C5" />
+<UML:GraphEdge xmi.idref="DCE.53B8BA5E-E809-293D-C62E-A028F30746D5" />
 </UML:GraphConnector.graphEdge>
 </UML:GraphConnector>
 </UML:GraphElement.anchorage>
 </UML:GraphNode>
 </UML:GraphElement.contained>
 </UML:GraphNode>
-<UML:GraphEdge isVisible="false"  xmi.id="DCE.5E8C3FC5-A845-4938-1C67-45B5562865C5" >
+<UML:GraphEdge isVisible="false"  xmi.id="DCE.53B8BA5E-E809-293D-C62E-A028F30746D5" >
 <UML:GraphElement.position>
      <XMI.field>0</XMI.field>
      <XMI.field>0</XMI.field>
@@ -759,8 +781,8 @@
      <XMI.field>0</XMI.field>
 </UML:GraphElement.position>
 <UML:GraphNode.size>
-     <XMI.field>352</XMI.field>
-     <XMI.field>42</XMI.field>
+     <XMI.field>335</XMI.field>
+     <XMI.field>70</XMI.field>
 </UML:GraphNode.size>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -771,6 +793,10 @@
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
 <UML:GraphNode isVisible="false"  xmi.id="Multiplicity_SOURCE_PEID" >
+<UML:GraphElement.position>
+     <XMI.field>0</XMI.field>
+     <XMI.field>0</XMI.field>
+</UML:GraphElement.position>
 <UML:GraphElement.semanticModel>
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="Multiplicity_SOURCE_PEID"  typeinfo="Multiplicity" />
 </UML:GraphElement.semanticModel>
@@ -788,23 +814,31 @@
      <XMI.field>0</XMI.field>
 </UML:GraphElement.position>
 <UML:GraphNode.size>
-     <XMI.field>352</XMI.field>
-     <XMI.field>42</XMI.field>
+     <XMI.field>335</XMI.field>
+     <XMI.field>70</XMI.field>
 </UML:GraphNode.size>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
 <UML:Uml2SemanticModelBridge.element>
-<UML:AssociationEnd xmi.idref="DCE.1C714A8E-9FA1-4E30-8E9E-AEC057553E6C" />
+<UML:NavigableEnd xmi.idref="DCE.1C714A8E-9FA1-4E30-8E9E-AEC057553E6C" />
 </UML:Uml2SemanticModelBridge.element>
 </UML:Uml2SemanticModelBridge>
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
 <UML:GraphNode isVisible="false"  xmi.id="End Name_TARGET_PEID" >
+<UML:GraphElement.position>
+     <XMI.field>-39</XMI.field>
+     <XMI.field>-32</XMI.field>
+</UML:GraphElement.position>
 <UML:GraphElement.semanticModel>
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="End Name_TARGET_PEID"  typeinfo="Name" />
 </UML:GraphElement.semanticModel>
 </UML:GraphNode>
 <UML:GraphNode isVisible="false"  xmi.id="Multiplicity_TARGET_PEID" >
+<UML:GraphElement.position>
+     <XMI.field>-33</XMI.field>
+     <XMI.field>19</XMI.field>
+</UML:GraphElement.position>
 <UML:GraphElement.semanticModel>
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="Multiplicity_TARGET_PEID"  typeinfo="Multiplicity" />
 </UML:GraphElement.semanticModel>
@@ -818,11 +852,11 @@
 </UML:GraphNode>
 </UML:GraphElement.contained>
 <UML:GraphEdge.anchor>
-<UML:GraphConnector xmi.idref="DCE.41E66E0D-96AD-54F4-04B4-7B8C55D2ED3A" />
-<UML:GraphConnector xmi.idref="DCE.CCAB2C3B-9D1C-9972-0C1F-6C9EF094779B" />
+<UML:GraphConnector xmi.idref="DCE.5B377DD3-10F5-4DC8-CD2A-0F8882310407" />
+<UML:GraphConnector xmi.idref="DCE.60103CBE-29D8-43E4-0189-A681CCF81127" />
 </UML:GraphEdge.anchor>
 </UML:GraphEdge>
-<UML:GraphEdge isVisible="false"  xmi.id="DCE.1DA11C9F-4ACD-A9CB-708A-77051E4FD388" >
+<UML:GraphEdge isVisible="false"  xmi.id="DCE.DCE2A564-F929-C5D7-A24C-DC15F60BFF7C" >
 <UML:GraphElement.position>
      <XMI.field>0</XMI.field>
      <XMI.field>0</XMI.field>
@@ -847,40 +881,11 @@
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>
 <UML:GraphEdge.anchor>
-<UML:GraphConnector xmi.idref="DCE.8CF20D75-3AAC-9D54-E3E2-DF462F95791F" />
-<UML:GraphConnector xmi.idref="DCE.CCAB2C3B-9D1C-9972-0C1F-6C9EF094779B" />
+<UML:GraphConnector xmi.idref="DCE.FBD96465-A9CB-E381-A269-D800ED5F54A5" />
+<UML:GraphConnector xmi.idref="DCE.60103CBE-29D8-43E4-0189-A681CCF81127" />
 </UML:GraphEdge.anchor>
 </UML:GraphEdge>
-<UML:GraphEdge isVisible="false"  xmi.id="DCE.4ADC9AA3-3620-686B-AE0B-BFB5609B39CC" >
-<UML:GraphElement.position>
-     <XMI.field>0</XMI.field>
-     <XMI.field>0</XMI.field>
-</UML:GraphElement.position>
-<UML:GraphEdge.waypoints>
-     <XMI.field>
-          <XMI.field>921</XMI.field>
-          <XMI.field>538</XMI.field>
-     </XMI.field>
-     <XMI.field>
-          <XMI.field>878</XMI.field>
-          <XMI.field>400</XMI.field>
-     </XMI.field>
-</UML:GraphEdge.waypoints>
-<UML:GraphElement.semanticModel>
-<UML:Uml2SemanticModelBridge presentation="Generalization"  xmi.id="xmi_id" >
-<UML:Uml2SemanticModelBridge.element>
-<UML:Generalization xmi.idref="DCE.CCAC8087-BC74-DC20-0153-2C38A24D237F" />
-</UML:Uml2SemanticModelBridge.element>
-</UML:Uml2SemanticModelBridge>
-</UML:GraphElement.semanticModel>
-<UML:GraphElement.contained>
-</UML:GraphElement.contained>
-<UML:GraphEdge.anchor>
-<UML:GraphConnector xmi.idref="DCE.FB2699D6-CAA1-F738-3712-592AEC4416E4" />
-<UML:GraphConnector xmi.idref="DCE.CCAB2C3B-9D1C-9972-0C1F-6C9EF094779B" />
-</UML:GraphEdge.anchor>
-</UML:GraphEdge>
-<UML:GraphEdge isVisible="false"  xmi.id="DCE.A1B77514-0630-C279-8AD5-54BA3B4ABB76" >
+<UML:GraphEdge isVisible="false"  xmi.id="DCE.34D69187-7CE0-D53E-0750-DDBFF4F7CC6E" >
 <UML:GraphElement.position>
      <XMI.field>0</XMI.field>
      <XMI.field>0</XMI.field>
@@ -895,8 +900,8 @@
           <XMI.field>462</XMI.field>
      </XMI.field>
      <XMI.field>
-          <XMI.field>1009</XMI.field>
-          <XMI.field>660</XMI.field>
+          <XMI.field>968</XMI.field>
+          <XMI.field>651</XMI.field>
      </XMI.field>
 </UML:GraphEdge.waypoints>
 <UML:GraphElement.semanticModel>
@@ -913,8 +918,8 @@
      <XMI.field>0</XMI.field>
 </UML:GraphElement.position>
 <UML:GraphNode.size>
-     <XMI.field>199</XMI.field>
-     <XMI.field>423</XMI.field>
+     <XMI.field>233</XMI.field>
+     <XMI.field>415</XMI.field>
 </UML:GraphNode.size>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -925,6 +930,10 @@
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
 <UML:GraphNode isVisible="false"  xmi.id="Multiplicity_SOURCE_PEID" >
+<UML:GraphElement.position>
+     <XMI.field>0</XMI.field>
+     <XMI.field>0</XMI.field>
+</UML:GraphElement.position>
 <UML:GraphElement.semanticModel>
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="Multiplicity_SOURCE_PEID"  typeinfo="Multiplicity" />
 </UML:GraphElement.semanticModel>
@@ -942,8 +951,8 @@
      <XMI.field>0</XMI.field>
 </UML:GraphElement.position>
 <UML:GraphNode.size>
-     <XMI.field>199</XMI.field>
-     <XMI.field>423</XMI.field>
+     <XMI.field>233</XMI.field>
+     <XMI.field>415</XMI.field>
 </UML:GraphNode.size>
 <UML:GraphElement.semanticModel>
 <UML:Uml2SemanticModelBridge presentation=""  xmi.id="xmi_id" >
@@ -954,6 +963,10 @@
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
 <UML:GraphNode isVisible="false"  xmi.id="End Name_TARGET_PEID" >
+<UML:GraphElement.position>
+     <XMI.field>0</XMI.field>
+     <XMI.field>0</XMI.field>
+</UML:GraphElement.position>
 <UML:GraphElement.semanticModel>
 <UML:SimpleSemanticModelElement presentation=""  xmi.id="End Name_TARGET_PEID"  typeinfo="Name" />
 </UML:GraphElement.semanticModel>
@@ -972,8 +985,37 @@
 </UML:GraphNode>
 </UML:GraphElement.contained>
 <UML:GraphEdge.anchor>
-<UML:GraphConnector xmi.idref="DCE.CCAB2C3B-9D1C-9972-0C1F-6C9EF094779B" />
-<UML:GraphConnector xmi.idref="DCE.FB2699D6-CAA1-F738-3712-592AEC4416E4" />
+<UML:GraphConnector xmi.idref="DCE.60103CBE-29D8-43E4-0189-A681CCF81127" />
+<UML:GraphConnector xmi.idref="DCE.D6E0538C-B886-FEA6-3058-4951C49F7130" />
+</UML:GraphEdge.anchor>
+</UML:GraphEdge>
+<UML:GraphEdge isVisible="false"  xmi.id="DCE.A9F216EA-C925-6F70-E8E3-F40391AD07FC" >
+<UML:GraphElement.position>
+     <XMI.field>0</XMI.field>
+     <XMI.field>0</XMI.field>
+</UML:GraphElement.position>
+<UML:GraphEdge.waypoints>
+     <XMI.field>
+          <XMI.field>880</XMI.field>
+          <XMI.field>529</XMI.field>
+     </XMI.field>
+     <XMI.field>
+          <XMI.field>878</XMI.field>
+          <XMI.field>400</XMI.field>
+     </XMI.field>
+</UML:GraphEdge.waypoints>
+<UML:GraphElement.semanticModel>
+<UML:Uml2SemanticModelBridge presentation="Generalization"  xmi.id="xmi_id" >
+<UML:Uml2SemanticModelBridge.element>
+<UML:Generalization xmi.idref="DCE.CCAC8087-BC74-DC20-0153-2C38A24D237F" />
+</UML:Uml2SemanticModelBridge.element>
+</UML:Uml2SemanticModelBridge>
+</UML:GraphElement.semanticModel>
+<UML:GraphElement.contained>
+</UML:GraphElement.contained>
+<UML:GraphEdge.anchor>
+<UML:GraphConnector xmi.idref="DCE.D6E0538C-B886-FEA6-3058-4951C49F7130" />
+<UML:GraphConnector xmi.idref="DCE.60103CBE-29D8-43E4-0189-A681CCF81127" />
 </UML:GraphEdge.anchor>
 </UML:GraphEdge>
 </UML:GraphElement.contained>

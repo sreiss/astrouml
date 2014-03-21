@@ -6,7 +6,7 @@
 </UML:Element.presentation></UML:Class>
 <UML:Package xmi.id="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB" name="packAstro" owner="DCE.4CEDBB37-07F8-6B0E-6EB9-672D3E817355"><UML:Element.presentation>
 </UML:Element.presentation><UML:Element.ownedElement>
-<UML:Class xmi.id="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE" name="ObjCeleste" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB" specialization="DCE.CCAC8087-BC74-DC20-0153-2C38A24D237F DCE.4F05012B-12E0-A09B-AE42-5E9E0B529D38" associationEnd="DCE.29754B32-287D-A7ED-D8C8-164AAEAB7A7B DCE.1C714A8E-9FA1-4E30-8E9E-AEC057553E6C"><UML:Element.presentation>
+<UML:Class xmi.id="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE" name="ObjCeleste" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB" specialization="DCE.CCAC8087-BC74-DC20-0153-2C38A24D237F DCE.4F05012B-12E0-A09B-AE42-5E9E0B529D38" associationEnd="DCE.29754B32-287D-A7ED-D8C8-164AAEAB7A7B DCE.1C714A8E-9FA1-4E30-8E9E-AEC057553E6C DCE.4300CB92-222D-A1B0-8FD5-7DBF34021909"><UML:Element.presentation>
 </UML:Element.presentation><UML:Element.ownedElement>
 <UML:Attribute xmi.id="DCE.481F45DA-1DE7-3607-5F30-31C6EEF8E12C" visibility="private" name="codeObj" type="DCE.6443EB74-35C2-0F87-DBD1-E071D292C208" owner="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE"><UML:Element.presentation>
 </UML:Element.presentation><UML:TypedElement.multiplicity>
@@ -76,7 +76,7 @@
 </UML:Element.presentation></UML:Operation></UML:Element.ownedElement><UML:Classifier.generalization>
 <UML:Generalization xmi.id="DCE.4F05012B-12E0-A09B-AE42-5E9E0B529D38" specific="DCE.99C0E25B-0BEC-B7BD-DBC2-7B2F24CA8194" general="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE"><UML:Element.presentation>
 </UML:Element.presentation></UML:Generalization></UML:Classifier.generalization></UML:Class>
-<UML:Class xmi.id="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68" name="ObjFroid" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB"><UML:Element.presentation>
+<UML:Class xmi.id="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68" name="ObjFroid" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB" associationEnd="DCE.33F150AF-E50C-9631-0A5B-B812B6229D50"><UML:Element.presentation>
 </UML:Element.presentation><UML:Element.ownedElement>
 <UML:Attribute xmi.id="DCE.615E7352-67E0-CD04-92DD-6FAB2DDAF22C" visibility="private" name="rayonMoyenOrbite" type="DCE.6443EB74-35C2-0F87-DBD1-E071D292C208" owner="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68"><UML:Element.presentation>
 </UML:Element.presentation><UML:TypedElement.multiplicity>
@@ -170,7 +170,15 @@
 </UML:Element.presentation></UML:Aggregation>
 
 
-</UML:Element.ownedElement></UML:Package>
+
+<UML:Association xmi.id="DCE.8FB13948-B2B2-D54B-1984-DC1EB972E274" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB" name="est satelitte de"><UML:Association.end>
+<UML:AssociationEnd xmi.id="DCE.4300CB92-222D-A1B0-8FD5-7DBF34021909" visibility="private" association="DCE.8FB13948-B2B2-D54B-1984-DC1EB972E274" type="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE" alias="objet" name="objet"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.DEE17687-39FD-703A-194A-E1B661B63419"><UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="DCE.CD7F2A96-1145-6F02-1A14-446F7752358F" lower="1" collectionType="[]"/></UML:Multiplicity.range></UML:Multiplicity></UML:TypedElement.multiplicity></UML:AssociationEnd>
+<UML:AssociationEnd xmi.id="DCE.33F150AF-E50C-9631-0A5B-B812B6229D50" visibility="private" association="DCE.8FB13948-B2B2-D54B-1984-DC1EB972E274" type="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68" name="satelittes"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.864C03BF-F34F-CE32-7641-91E13A208FAC"><UML:Multiplicity.range>
+<UML:MultiplicityRange xmi.id="DCE.06668AD9-F70F-E24F-56EA-E638FBFCBD55" lower="0" upper="*" collectionType="ArrayList"/></UML:Multiplicity.range></UML:Multiplicity></UML:TypedElement.multiplicity></UML:AssociationEnd></UML:Association.end><UML:Element.presentation>
+</UML:Element.presentation></UML:Association></UML:Element.ownedElement></UML:Package>
 <UML:DataType xmi.id="DCE.6443EB74-35C2-0F87-DBD1-E071D292C208" name="int" owner="DCE.4CEDBB37-07F8-6B0E-6EB9-672D3E817355"/>
 <UML:DataType xmi.id="DCE.F4EE66C9-2455-730D-C375-6A9FFDC3CEAC" name="char" owner="DCE.4CEDBB37-07F8-6B0E-6EB9-672D3E817355"/>
 <UML:DataType xmi.id="DCE.8B7D7B30-995E-F49B-DA28-4180DF7EC1A1" name="float" owner="DCE.4CEDBB37-07F8-6B0E-6EB9-672D3E817355"/>

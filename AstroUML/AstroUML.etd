@@ -88,7 +88,8 @@
 <UML:Parameter xmi.id="DCE.5606A6E2-3F42-B0B4-B2A6-45FBB1432E29" type="DCE.C53BC3FA-3638-F054-D38D-9C80EB5E7B11" direction="result" owner="DCE.DAB882EF-D15E-76AB-0B01-C462898FF191"><UML:TypedElement.multiplicity>
 <UML:Multiplicity xmi.id="DCE.A6236BE6-4D68-32F6-8354-F8AB77DD885E"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
 
-</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.3586095E-E177-9547-44C2-CD9688CDCA74" name="Unnamed" owner="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE" sourcefile="..\AstroJava\src\packAstro\ObjCeleste.java"/></UML:Element.ownedElement></UML:Class>
 <UML:Class xmi.id="DCE.99C0E25B-0BEC-B7BD-DBC2-7B2F24CA8194" name="Etoile" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB" associationEnd="DCE.0769F951-0DE3-F4B1-DF6A-F7268B39573F DCE.B7B40A0B-787C-C34D-FA6C-3D9ED0753DC8 DCE.6B0EF979-9A4E-44A7-9356-958B7AD5B187 DCE.7297FA24-D662-B057-08BD-E9435643C00B DCE.9F24AAFF-DDA3-0298-B8BA-30D5FEFAAD03 DCE.FFA92F3E-A510-FA5D-2E15-2EC158CB1DB4"><UML:Element.presentation>
 
 
@@ -147,7 +148,8 @@
 <UML:Parameter xmi.id="DCE.B5569DA9-E88E-ACD3-2ABC-10D16B2418AB" type="" direction="result" owner="DCE.DF14E4CB-5136-153E-DFB6-D829C2724E05"><UML:TypedElement.multiplicity>
 <UML:Multiplicity xmi.id="DCE.CBF7A8FD-FFFC-A20C-DA35-151C01371BFB"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
 
-</UML:Element.presentation></UML:Operation></UML:Element.ownedElement><UML:Classifier.generalization>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.A75A03D9-69F1-C7B9-003E-68C87AB65841" name="Unnamed" owner="DCE.99C0E25B-0BEC-B7BD-DBC2-7B2F24CA8194" sourcefile="..\AstroJava\src\packAstro\Etoile.java"/></UML:Element.ownedElement><UML:Classifier.generalization>
 <UML:Generalization xmi.id="DCE.4F05012B-12E0-A09B-AE42-5E9E0B529D38" specific="DCE.99C0E25B-0BEC-B7BD-DBC2-7B2F24CA8194" general="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE"><UML:Element.presentation>
 
 
@@ -240,7 +242,8 @@
 <UML:Parameter xmi.id="DCE.DA3C7505-C2EC-8CC7-193A-B5B40DEC2C15" type="DCE.A6D1F472-C7CA-11FF-2F58-DF1EBB79DAA3" name="g" owner="DCE.03075653-D001-726B-9DF0-35195359ABF6"><UML:TypedElement.multiplicity>
 <UML:Multiplicity xmi.id="DCE.87A1A443-95C1-4531-43A4-086E7F25A143"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
 
-</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.7F9A3EAF-6DC8-6E34-7BC9-CE691CB43BD3" name="Unnamed" owner="DCE.A6D1F472-C7CA-11FF-2F58-DF1EBB79DAA3" sourcefile="..\AstroJava\src\packAstro\Galaxie.java"/></UML:Element.ownedElement></UML:Class>
 <UML:DataType xmi.id="DCE.AB58CDBF-CC89-6205-27A4-02E1F8A7A957" name="intint" owner="DCE.DBC5F86F-D5E3-A740-A319-363105F0FBFB"/>
 
 
@@ -382,7 +385,8 @@
 <UML:Parameter xmi.id="DCE.A6CD0158-CF1A-D020-14FB-783E72BD5BDB" type="" direction="result" owner="DCE.00AEA4DA-A61D-5F56-ACA3-2E02CE9E10F7"><UML:TypedElement.multiplicity>
 <UML:Multiplicity xmi.id="DCE.3AC80BE0-F9E2-6B3A-4045-C3F14DD88862"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
 
-</UML:Element.presentation></UML:Operation></UML:Element.ownedElement><UML:Classifier.generalization>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.6C55BC1E-4CDB-4E9F-6724-FE9ABBA2D35A" name="Unnamed" owner="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68" sourcefile="..\AstroJava\src\packAstro\ObjFroid.java"/></UML:Element.ownedElement><UML:Classifier.generalization>
 <UML:Generalization xmi.id="DCE.CCAC8087-BC74-DC20-0153-2C38A24D237F" specific="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68" general="DCE.56F9E98C-C4A9-3A93-9650-93A53D285CDE"><UML:Element.presentation>
 
 
@@ -450,6 +454,11 @@
 <UML:Operation xmi.id="DCE.153A9C78-82E1-3007-33DE-F296B0BAEE3A" name="s_theBigOne" owner="DCE.9AFD4011-A39C-430E-A12A-0B7897A740C7"><UML:Element.ownedElement>
 <UML:Parameter xmi.id="DCE.4917F9BE-FF3D-9404-B20F-A96B5D1C6D9D" type="DCE.23C6C849-D4E8-6114-A642-72F3CECCDC68" direction="result" owner="DCE.153A9C78-82E1-3007-33DE-F296B0BAEE3A"><UML:TypedElement.multiplicity>
 <UML:Multiplicity xmi.id="DCE.611402E6-C400-13FE-D43D-3451BC99C2B7"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:SourceFileArtifact xmi.id="DCE.388F67F7-E5A9-2054-CECF-DAA309A300DB" name="Unnamed" owner="DCE.9AFD4011-A39C-430E-A12A-0B7897A740C7" sourcefile="..\AstroJava\src\gestionnaires\Univers.java"/>
+<UML:Operation xmi.id="DCE.C320E340-9D20-ED83-091B-15A4AFAAA84D" name="s_getSoleil" owner="DCE.9AFD4011-A39C-430E-A12A-0B7897A740C7" isStatic="true"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.30E15F6A-65CE-7804-7574-6808F4997955" type="DCE.99C0E25B-0BEC-B7BD-DBC2-7B2F24CA8194" direction="result" owner="DCE.C320E340-9D20-ED83-091B-15A4AFAAA84D"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.A4914F8B-E48D-2691-CACF-D7AE88472936"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
 </UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
 <UML:Aggregation xmi.id="DCE.8DFFEB7F-11B0-4923-84A2-73AFE5AA2D0E" isComposite="true" owner="DCE.A21B1867-469F-7991-8AF6-42114B77411F" aggregateEnd="DCE.3E3B9F13-CA64-ED59-CA99-B3DFF1F90EF4" partEnd="DCE.3A28CE60-1D14-AF3E-376F-17873C6C177D" name="gere"><UML:Association.end>
 <UML:AssociationEnd xmi.id="DCE.3E3B9F13-CA64-ED59-CA99-B3DFF1F90EF4" visibility="private" type="DCE.9AFD4011-A39C-430E-A12A-0B7897A740C7" association="DCE.8DFFEB7F-11B0-4923-84A2-73AFE5AA2D0E"><UML:TypedElement.multiplicity>

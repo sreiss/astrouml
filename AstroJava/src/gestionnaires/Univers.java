@@ -40,6 +40,10 @@ public class Univers {
     public ObjFroid s_theBigOne () {
         return null;
     }
+    
+    public Etoile s_getSoleil() {
+        return null;
+    }
 
 }
 

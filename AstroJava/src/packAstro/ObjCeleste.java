@@ -25,34 +25,32 @@ public abstract class ObjCeleste {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.33F150AF-E50C-9631-0A5B-B812B6229D50]
     // </editor-fold> 
-    private ArrayList<ObjFroid> satelittes;
+    private ArrayList<ObjFroid> satellites;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.0564FCB1-3E54-54C2-DC2B-5E8C110B17F1]
     // </editor-fold> 
-    public String getType () {
-        return null;
+    public int getType () {
+        return type;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.8ABB9C5E-5297-4140-9E90-51889C54DB0A]
     // </editor-fold> 
-    public Galaxie getGalaxie () {
-        return null;
-    }
+    public abstract Galaxie getGalaxie ();
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.7DE7586A-B0D8-52C1-01F6-4EB25F670582]
     // </editor-fold> 
     public int nbDeSatellites () {
-        return 0;
+        return satellites.size();
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.C6BB3EA2-DFFA-38C8-91C0-6803D6953C6F]
     // </editor-fold> 
-    public ArrayList<ObjFroid> getSatelittes () {
-        return null;
+    public ArrayList<ObjFroid> getSatellites () {
+        return satellites;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 

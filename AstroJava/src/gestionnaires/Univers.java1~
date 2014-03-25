@@ -1,7 +1,6 @@
 package gestionnaires;
 
 import java.util.ArrayList; 
-import packAstro.Etoile; 
 import packAstro.Galaxie; 
 import packAstro.ObjFroid; 
 import packAstro.String; 

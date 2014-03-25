@@ -44,7 +44,7 @@ public class ObjFroid extends ObjCeleste {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.4300CB92-222D-A1B0-8FD5-7DBF34021909]
     // </editor-fold> 
-    private ObjCeleste centre;
+    private ObjCeleste objet;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.5EBFD394-3348-6BF4-6F8E-D1D388057DDF]

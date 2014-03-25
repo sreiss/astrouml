@@ -25,12 +25,12 @@ public class Galaxie {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.FFA92F3E-A510-FA5D-2E15-2EC158CB1DB4]
     // </editor-fold> 
-    private ArrayList<Etoile> etoiles;
+    private static ArrayList<Etoile> etoiles;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.4CF6F50D-FD31-D26D-7C0F-4B3A2F90E999]
     // </editor-fold> 
-    private ArrayList<ObjCeleste> mObjCeleste;
+    private static ArrayList<ObjCeleste> mObjCeleste;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.E0441E6B-49B3-9F18-C989-65FD173159E3]
@@ -43,34 +43,42 @@ public class Galaxie {
     // #[regen=yes,id=DCE.DE2C7170-0AE7-7ADF-7C56-D279475D8101]
     // </editor-fold> 
     public static ObjCeleste s_getObjet (int num) {
+        for (ObjCeleste oc : mObjCeleste) {
+            if (oc.getCodeObj() == num) {
+                return oc;
+            }
+        }
         return null;
     }
-
+    
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.03075653-D001-726B-9DF0-35195359ABF6]
     // </editor-fold> 
     public static ArrayList<ObjCeleste> s_getObjets (Galaxie g) {
-        return null;
+        return g.getObjCelestes();
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.C56870D8-ED25-D73B-DAF0-0F5AB1D2D997]
     // </editor-fold> 
     public ArrayList<Etoile> ListeEtoiles () {
-        return null;
+        return etoiles;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.78735B16-2F21-6557-3CF5-7489A30C38ED]
     // </editor-fold> 
     public int nbEtoiles () {
-        return 0;
+        return etoiles.size();
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.77396AE3-D214-D983-713D-F3A0319D399C]
     // </editor-fold> 
     public void creerGalaxie (String nom, String type, int eloignement) {
+        this.nom = nom;
+        this.type = type;
+        this.eloignement = eloignement;
     }
     
     public String getNom() {
@@ -83,10 +91,6 @@ public class Galaxie {
     
     public int getEloignement() {
         return eloignement;
-    }
-    
-    public ArrayList<Etoile> getEtoiles() {
-        return etoiles;
     }
 
     public ArrayList<ObjCeleste> getObjCelestes() {

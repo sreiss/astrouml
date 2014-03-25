@@ -40,25 +40,40 @@ public class Univers {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.153A9C78-82E1-3007-33DE-F296B0BAEE3A]
     // </editor-fold> 
-    public ObjFroid s_theBigOne () {
-//        ObjFroid big = null;
-//        for (Galaxie g : galaxies) {
-//            for (ObjCeleste oc : g.getObjets()) {
-//                if(oc instanceof ObjFroid) {
-//                    ObjFroid of = (ObjFroid)oc;
-//                    
-//                }
-//            }
-//        }
+    public static ObjFroid s_theBigOne () {
+        ObjFroid big = null;
+        int diam = 0;
+        for (Galaxie g : galaxies) {
+            for (ObjCeleste oc : g.getObjCelestes()) {
+                if(oc instanceof ObjFroid) {
+                    ObjFroid of = (ObjFroid)oc;
+                    if (of.getDiametre()>diam) {
+                        diam = of.getDiametre();
+                        big = of;
+                    }
+                }
+            }
+        }
+        return big;
+    }
+    
+    public static Etoile s_getSoleil() {
+        for (Galaxie g : galaxies) {
+            for (Etoile e : g.getEtoiles()) {
+                if (e.getNom().equalsIgnoreCase("soleil")) {
+                    return e;
+                }
+            }
+        }
         return null;
     }
     
-    public Etoile s_getSoleil() {
-        return null;
-    }
-    
-    public int getNextCode() {
+    public static int getNextCode() {
         return s_nextCodeObj;
+    }
+    
+    public static void incrNextCode() {
+        s_nextCodeObj++;
     }
 
 }

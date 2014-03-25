@@ -30,33 +30,62 @@ public abstract class ObjCeleste {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.0564FCB1-3E54-54C2-DC2B-5E8C110B17F1]
     // </editor-fold> 
-    public String getType () {
-        return type;
+    public int getType () {
+        return this.type;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.8ABB9C5E-5297-4140-9E90-51889C54DB0A]
     // </editor-fold> 
-    public Galaxie getGalaxie () 
+    public abstract Galaxie getGalaxie ();
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.7DE7586A-B0D8-52C1-01F6-4EB25F670582]
     // </editor-fold> 
     public int nbDeSatellites () {
-        return satellites.size();
+        return this.satellites.size();
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.C6BB3EA2-DFFA-38C8-91C0-6803D6953C6F]
     // </editor-fold> 
     public ArrayList<ObjFroid> getSatelittes () {
-        return satellites;
+        return this.satellites;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.DAB882EF-D15E-76AB-0B01-C462898FF191]
     // </editor-fold> 
     public abstract String toString ();
+    
+    protected void setNom(String nom) {
+        this.nom = nom;
+    }
+    
+    protected void setCodeObj(int code) {
+        this.codeObj = code;
+    }
+    
+    protected void setType(int type) {
+        this.type = type;
+    }
 
+    public void setSatellites(ArrayList<ObjFroid> sat) {
+        this.satelittes = sat;
+    }
+    
+    public String getNom() {
+        return this.nom;
+    }
+    
+    public int getCodeObj() {
+        return this.codeObj;
+    }
+    
+    public ArrayList<ObjFroid> getSatellites() {
+        return this.satellites;
+    }
+    
+    
 }
 

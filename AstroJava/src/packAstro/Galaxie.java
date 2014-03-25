@@ -33,6 +33,13 @@ public class Galaxie {
     private ArrayList<ObjCeleste> mObjCeleste;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.E0441E6B-49B3-9F18-C989-65FD173159E3]
+    // </editor-fold> 
+    public Galaxie () {
+        
+    }
+    
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.DE2C7170-0AE7-7ADF-7C56-D279475D8101]
     // </editor-fold> 
     public static ObjCeleste s_getObjet (int num) {
@@ -65,13 +72,25 @@ public class Galaxie {
     // </editor-fold> 
     public void creerGalaxie (String nom, String type, int eloignement) {
     }
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.E0441E6B-49B3-9F18-C989-65FD173159E3]
-    // </editor-fold> 
-    public <<CREATE>> () {
-        return null;
+    
+    public String getNom() {
+        return nom;
+    }
+    
+    public String getType() {
+        return type;
+    }
+    
+    public int getEloignement() {
+        return eloignement;
+    }
+    
+    public ArrayList<Etoile> getEtoiles() {
+        return etoiles;
     }
 
+    public ArrayList<ObjCeleste> getObjCelestes() {
+        return mObjCeleste;
+    }
 }
 

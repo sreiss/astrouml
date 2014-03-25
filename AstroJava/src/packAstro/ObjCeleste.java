@@ -25,7 +25,7 @@ public abstract class ObjCeleste {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.33F150AF-E50C-9631-0A5B-B812B6229D50]
     // </editor-fold> 
-    private ArrayList<ObjFroid> satelittes;
+    private ArrayList<ObjFroid> satellites;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.0564FCB1-3E54-54C2-DC2B-5E8C110B17F1]
@@ -71,7 +71,7 @@ public abstract class ObjCeleste {
     }
 
     public void setSatellites(ArrayList<ObjFroid> sat) {
-        this.satelittes = sat;
+        this.satellites = sat;
     }
     
     public String getNom() {

@@ -94,26 +94,93 @@ public class Univers {
     // #[regen=yes,id=DCE.C1E86127-C69D-BA62-85EF-C18CEB3226B1]
     // </editor-fold> 
     public static ObjCeleste s_getObjet (int num) {
-        return null;
+        if(num > Univers.s_nextCodeObj)
+            return null;
+        boolean found = false;
+        ObjCeleste obj;
+        while(!found) {
+            for(Galaxie g : Univers.s_galaxies) {
+                for(Etoile e : g.listeEtoiles()) {
+                    if(e.getCodeObj() == num) {
+                        obj = e;
+                        found = true;
+                    } else {
+                        for (ObjFroid o : e.getSatellites()) {
+                            if (o.getCodeObj() == num && o.nbDeSatellites() != 0) {
+                                obj = o;
+                                found = true;
+                            } else if (o.nbDeSatellites() != 0){
+                               for (ObjFroid s : o.getSatellites()) {
+                                   if (s.getCodeObj() == num) {
+                                       obj = s;
+                                       found = false;
+                                   }
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return obj;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.A356380E-FA38-C98B-BD23-02631D7C6C1C]
     // </editor-fold> 
-    public static void creerObjFroid (String nom, int rayonOrbite, int diametre, int periode, ObjCeleste centreOrbite) {
+    public static ObjFroid creerObjFroid (String nom, int rayonOrbite, int diametre, int periode, ObjCeleste centreOrbite) { 
+        ObjFroid obj = new ObjFroid(
+                Univers.s_nextCodeObj, 
+                nom, 
+                Univers.calculeType(diametre, centreOrbite), 
+                rayonOrbite, 
+                diametre, 
+                periode, 
+                centreOrbite
+        );
+        Univers.s_nextCodeObj++;
+        return obj;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.E3C56E34-E174-5A49-FB76-D7CEB2386E55]
     // </editor-fold> 
-    public static void creerEtoile (String nom, int magnitude, char age_lettre, Galaxie galaxie) {
+    public static Etoile creerEtoile (String nom, int magnitude, char age_lettre, Galaxie galaxie) {
+        Etoile e = new Etoile(
+                Univers.s_nextCodeObj,
+                nom,
+                galaxie,
+                magnitude,
+                age_lettre
+        );
+        Univers.s_nextCodeObj++;
+        return e;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.6E2F61E6-B458-AFD7-8899-BE6F07A282A5]
     // </editor-fold> 
-    public static void creerGalaxie (String nom, String type, int eloignement) {
+    public static Galaxie creerGalaxie (String nom, String type, int eloignement) {
+        Galaxie g = new Galaxie(
+                nom,
+                type,
+                eloignement
+        );
+        Univers.s_galaxies.add(g);
+        return g;
     }
-
+    
+    private static int calculeType (int diam, ObjCeleste centreOrbite) {
+        int type;
+        if (diam >= 6000 && centreOrbite.getNom().equalsIgnoreCase("soleil"))
+            type = ObjCeleste.PLANETE;
+        else if (diam < 6000 && centreOrbite.getNom().equalsIgnoreCase("soleil"))
+            type = ObjCeleste.PLANETE_NAINE;
+        else if (!centreOrbite.getNom().equalsIgnoreCase("soleil"))
+            type = ObjCeleste.EXO_PLANETE;
+        else
+            type = ObjCeleste.LUNE;
+        return type;
+    }
 }
 

@@ -30,32 +30,40 @@ public class Galaxie {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.E0441E6B-49B3-9F18-C989-65FD173159E3]
     // </editor-fold> 
-    public Galaxie () {
+    Galaxie (String nom, String type, int eloignement) {
+        this.nom = nom;
+        this.type = type;
+        this.eloignement = eloignement;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.C56870D8-ED25-D73B-DAF0-0F5AB1D2D997]
     // </editor-fold> 
-    public ArrayList<Etoile> ListeEtoiles () {
-        return null;
+    public ArrayList<Etoile> listeEtoiles () {
+        return this.etoiles;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.78735B16-2F21-6557-3CF5-7489A30C38ED]
     // </editor-fold> 
     public int nbEtoiles () {
-        return 0;
-    }
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,regenBody=yes,id=DCE.04EFA77B-FC0C-6C9C-71FA-EAF35F65596F]
-    // </editor-fold> 
-    public ArrayList<Etoile> getEtoiles () {
-        return etoiles;
+        return this.etoiles.size();
     }
     
     public String getNom() {
         return nom;
+    }
+    
+    /* TODO */
+    public String toString() {
+        return this.nom
+                + ", "
+                + this.type
+                + ", eloignement "
+                + this.eloignement
+                + " ; "
+                + this.nbEtoiles() 
+                + " etoile(s)";
     }
 
 }

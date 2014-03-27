@@ -187,6 +187,7 @@ public class Ihm {
                     System.out.println("Commande non reconnue");
                     break;
             }
+            System.out.println();
         } catch (Exception e) {
             System.out.println("Commande incorrecte");
         }

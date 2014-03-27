@@ -87,7 +87,9 @@ public class Univers {
     // #[regen=yes,id=DCE.8A6CA7AE-AC12-D371-99C8-E245B5979F5A]
     // </editor-fold> 
     public static ArrayList<ObjCeleste> s_getObjets (Galaxie g) {
-        return null;
+        if(g instanceof Galaxie) {
+            
+        }
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 

@@ -41,7 +41,7 @@ public class Ihm {
     }
     
     public void initJeuEssai() {
-        Galaxie voie_lactee = Univers.creerGalaxie("Voie lactee", "Spirale", 0);
+        Galaxie voie_lactee = Univers.creerGalaxie("VoieLactee", "Spirale", 0);
             Etoile soleil = Univers.creerEtoile("Soleil", 0, 'F', voie_lactee);
                 ObjFroid terre = Univers.creerObjFroid("Terre", 150000, 13000, 365, soleil);
                     Univers.creerObjFroid("Lune", 200, 5000, 30, terre);
@@ -56,101 +56,139 @@ public class Ihm {
     }
     
     public void launch(String[] args) {
-        switch (Integer.parseInt(args[0])) {
-            case 0:
-                if (args.length == 1) {
-                    this.initJeuEssai();
-                    System.out.println("Jeu d'essaie initialisé");
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 1:
-                if (args.length == 2) {
-                    System.out.println(Univers.s_getObjet(Integer.parseInt(args[1])).toString());
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 2:
-                if (args.length == 1) {
-                    for (Galaxie g : Univers.s_getTteGalaxies()) {
-                        System.out.print("("+g.toString()+"); ");
+        try {
+            switch (Integer.parseInt(args[0])) {
+                case 0:
+                    if (args.length == 1) {
+                        this.initJeuEssai();
+                        System.out.println("Jeu d'essai initialisé");
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
                     }
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 3:
-                if (args.length == 2) {
-                    for (ObjCeleste obj : Univers.s_getObjets(Univers.s_getGalaxie(args[1]))) {
-                        System.out.print("("+obj.toString()+"); ");
+                    break;
+                case 1:
+                    if (args.length == 2) {
+                        if (Integer.parseInt(args[1]) > 0) {
+                            try {
+                                System.out.println(Univers.s_getObjet(Integer.parseInt(args[1])).toString());
+                            } catch (Exception e) {
+                                System.out.println("Argument incorrect !");
+                            }
+                        } else {
+                                System.out.println("Argument incorrect !");
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
                     }
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 4:
-                if (args.length == 2) {
-                    for (ObjFroid obj : Univers.s_getObjet(Integer.parseInt(args[1])).getSatellites()) {
-                        System.out.print(obj.getNom()+", ");
+                    break;
+                case 2:
+                    if (args.length == 1) {
+                        for (Galaxie g : Univers.s_getTteGalaxies()) {
+                            System.out.print("("+g.toString()+"); ");
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
                     }
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 5:
-                if (args.length == 1) {
-                    int nb = 0;
-                    for (Galaxie g : Univers.s_getTteGalaxies()) {
-                        nb += g.listeEtoiles().size();
+                    break;
+                case 3:
+                    if (args.length == 2) {
+                        try {
+                            for (ObjCeleste obj : Univers.s_getObjets(Univers.s_getGalaxie(args[1]))) {
+                                System.out.print("("+obj.toString()+"); ");
+                            }
+                        } 
+                        catch (Exception e) {
+                            System.out.println("Argument incorrect !"); 
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
                     }
-                    System.out.println(nb);
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 6:
-                if (args.length == 1) {
-                    System.out.println(Univers.s_theBigOne().toString());
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 7:
-                if (args.length == 5) {
-                    Etoile e = Univers.creerEtoile(args[1], Integer.parseInt(args[2]), args[3].charAt(0), Univers.s_getGalaxie(args[4]));
-                    System.out.println("N°"+e.getCodeObj()+", "+e.getTypeString());
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 8:
-                if (args.length == 6) {
-                    ObjFroid obj = Univers.creerObjFroid(args[1], Integer.parseInt(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]), Univers.s_getObjet(Integer.parseInt(args[5])));
-                    System.out.println("N°"+obj.getCodeObj()+", "+obj.getTypeString());
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 9:
-                if (args.length == 4) {
-                    Galaxie g = Univers.creerGalaxie(args[1], args[2], Integer.parseInt(args[3]));
-                    System.out.println("Galaxie "+g.getNom()+" créée.");
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            case 10:
-                if (args.length == 1) {
-                    System.exit(0);
-                } else {
-                    System.out.println("Nombre d'arguments incorrect!");
-                }
-                break;
-            default:
-                System.out.println("Commande non reconnue");
-                break;
+                    break;
+                case 4:
+                    if (args.length == 2) {
+                        if (Integer.parseInt(args[1]) > 0) {
+                            try {
+                                for (ObjFroid obj : Univers.s_getObjet(Integer.parseInt(args[1])).getSatellites()) {
+                                    System.out.print(obj.getNom()+", ");
+                                }
+                            }
+                            catch (Exception e) {
+                                System.out.println("Argument incorrect !"); 
+                            }
+                        } else {
+                            System.out.println("Argument incorrect !"); 
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                case 5:
+                    if (args.length == 1) {
+                        int nb = 0;
+                        for (Galaxie g : Univers.s_getTteGalaxies()) {
+                            nb += g.listeEtoiles().size();
+                        }
+                        System.out.println(nb);
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                case 6:
+                    if (args.length == 1) {
+                        System.out.println(Univers.s_theBigOne().toString());
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                case 7:
+                    if (args.length == 5) {
+                        try {
+                            Etoile e = Univers.creerEtoile(args[1], Integer.parseInt(args[2]), args[3].charAt(0), Univers.s_getGalaxie(args[4]));
+                            System.out.println("N°"+e.getCodeObj()+", "+e.getTypeString());
+                        } catch (Exception e) {
+                            System.out.println("Arguments incorrects");
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                case 8:
+                    if (args.length == 6) {
+                        try {
+                            ObjFroid obj = Univers.creerObjFroid(args[1], Integer.parseInt(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]), Univers.s_getObjet(Integer.parseInt(args[5])));
+                            System.out.println("N°"+obj.getCodeObj()+", "+obj.getTypeString());
+                        } catch (Exception e) {
+                            System.out.println("Arguments incorrects");
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                case 9:
+                    if (args.length == 4) {
+                        try {
+                            Galaxie g = Univers.creerGalaxie(args[1], args[2], Integer.parseInt(args[3]));
+                            System.out.println("Galaxie "+g.getNom()+" créée.");
+                        } catch (Exception e) {
+                            System.out.println("Arguments incorrects");
+                        }
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                case 10:
+                    if (args.length == 1) {
+                        System.exit(0);
+                    } else {
+                        System.out.println("Nombre d'arguments incorrect!");
+                    }
+                    break;
+                default:
+                    System.out.println("Commande non reconnue");
+                    break;
+            }
+        } catch (Exception e) {
+            System.out.println("Commande incorrecte");
         }
     }
     

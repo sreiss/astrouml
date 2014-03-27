@@ -21,36 +21,11 @@ public abstract class ObjCeleste {
     // #[regen=yes,id=DCE.533FE177-F36C-6E92-D1EC-03FFB7A65AA7]
     // </editor-fold> 
     private int type;
-    
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.FC59270B-EEA3-D62E-32DA-A0B650974291]
-    // </editor-fold> 
-    public static final int ETOILE = 0;
-    
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.95FF9B30-8AEB-9677-F52A-4F759C8B41C3]
-    // </editor-fold> 
-    public static final int PLANETE = 1;
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.CFA56F75-FE01-A994-248A-E6C129C1DC29]
-    // </editor-fold> 
-    public static final int PLANETE_NAINE = 2;
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.FA28A661-B6DE-9AED-11E5-9C07C281127B]
-    // </editor-fold> 
-    public static final int EXO_PLANETE = 3;
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.98196517-D5ED-5542-7435-3FB82CDFBD30]
-    // </editor-fold> 
-    public static final int LUNE = 4;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.33F150AF-E50C-9631-0A5B-B812B6229D50]
     // </editor-fold> 
-    private ArrayList<ObjFroid> satellites = new ArrayList<>();
+    private ArrayList<ObjFroid> satellites;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.0564FCB1-3E54-54C2-DC2B-5E8C110B17F1]
@@ -69,6 +44,13 @@ public abstract class ObjCeleste {
     // </editor-fold> 
     public int nbDeSatellites () {
         return this.satellites.size();
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.C6BB3EA2-DFFA-38C8-91C0-6803D6953C6F]
+    // </editor-fold> 
+    public ArrayList<ObjFroid> getSatelittes () {
+        return this.satellites;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
@@ -104,26 +86,6 @@ public abstract class ObjCeleste {
         return this.satellites;
     }
     
-    public String getTypeString() {
-        String s = "";
-        switch(this.getType()) {
-            case ObjCeleste.ETOILE:
-                s = "étoile";
-                break;
-            case ObjCeleste.PLANETE:
-                s = "planete";
-                break;
-            case ObjCeleste.PLANETE_NAINE:
-                s = "planete naine";
-                break;
-            case ObjCeleste.EXO_PLANETE:
-                s = "exo Planete";
-                break;
-            case ObjCeleste.LUNE:
-                s = "lune";
-                break;
-        }
-        return s;
-    }
+    
 }
 

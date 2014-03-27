@@ -23,14 +23,22 @@ public class Galaxie {
     private int eloignement;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.DCC72505-612D-6FB9-CF24-30A0DD87A26B]
+    // #[regen=yes,id=DCE.4CF6F50D-FD31-D26D-7C0F-4B3A2F90E999]
     // </editor-fold> 
-    private ArrayList<Etoile> etoiles;
+    private ArrayList<ObjCeleste> mObjCeleste;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.E0441E6B-49B3-9F18-C989-65FD173159E3]
+    // #[regen=yes,id=DCE.DE2C7170-0AE7-7ADF-7C56-D279475D8101]
     // </editor-fold> 
-    public Galaxie () {
+    public static ObjCeleste s_getObjet (int num) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.03075653-D001-726B-9DF0-35195359ABF6]
+    // </editor-fold> 
+    public static ArrayList<ObjCeleste> s_getObjets (Galaxie g) {
+        return null;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
@@ -48,15 +56,23 @@ public class Galaxie {
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,regenBody=yes,id=DCE.04EFA77B-FC0C-6C9C-71FA-EAF35F65596F]
+    // #[regen=yes,id=DCE.77396AE3-D214-D983-713D-F3A0319D399C]
     // </editor-fold> 
-    public ArrayList<Etoile> getEtoiles () {
-        return etoiles;
+    public void creerGalaxie (String nom, String type, int eloignement) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.E0441E6B-49B3-9F18-C989-65FD173159E3]
+    // </editor-fold> 
+    public <<CREATE>> () {
+        return null;
     }
     
     public String getNom() {
         return nom;
     }
+    
+    pu
 
 }
 

@@ -1,7 +1,7 @@
-package gestionnaires;
+
+package packAstro;
 
 import java.util.ArrayList; 
-import packAstro.*;
 
 // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
 // #[regen=yes,id=DCE.9AFD4011-A39C-430E-A12A-0B7897A740C7]
@@ -16,13 +16,13 @@ public class Univers {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.3A28CE60-1D14-AF3E-376F-17873C6C177D]
     // </editor-fold> 
-    private static ArrayList<Galaxie> galaxies;
+    private static ArrayList<Galaxie> s_galaxies;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.007C29D3-A5E4-CB42-9305-5F4A171C77DB]
     // </editor-fold> 
     public static Galaxie s_getGalaxie (String nom) {
-        for (Galaxie g : galaxies) {
+        for (Galaxie g : s_galaxies) {
             if (g.getNom().equals(nom)) {
                 return g;
             }
@@ -34,7 +34,7 @@ public class Univers {
     // #[regen=yes,id=DCE.6977E68F-35C4-8465-9B4E-7CC1E4E4FAE6]
     // </editor-fold> 
     public static ArrayList<Galaxie> s_getTteGalaxies () {
-        return galaxies;
+        return s_galaxies;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
@@ -43,8 +43,8 @@ public class Univers {
     public static ObjFroid s_theBigOne () {
         ObjFroid big = null;
         int diam = 0;
-        for (Galaxie g : galaxies) {
-            for (ObjCeleste oc : g.getObjCelestes()) {
+        for (Galaxie g : s_galaxies) {
+            for (ObjCeleste oc : Univers.s_getObjets(g)) {
                 if(oc instanceof ObjFroid) {
                     ObjFroid of = (ObjFroid)oc;
                     if (of.getDiametre()>diam) {
@@ -58,8 +58,8 @@ public class Univers {
     }
     
     public static Etoile s_getSoleil() {
-        for (Galaxie g : galaxies) {
-            for (Etoile e : g.getEtoiles()) {
+        for (Galaxie g : s_galaxies) {
+            for (Etoile e : g.ListeEtoiles()) {
                 if (e.getNom().equalsIgnoreCase("soleil")) {
                     return e;
                 }
@@ -74,6 +74,45 @@ public class Univers {
     
     public static void incrNextCode() {
         s_nextCodeObj++;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.020981A7-1EAA-C919-1E47-5CEF81DBF05D]
+    // </editor-fold> 
+    public static ArrayList<ObjCeleste> getObjcelestes () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.8A6CA7AE-AC12-D371-99C8-E245B5979F5A]
+    // </editor-fold> 
+    public static ArrayList<ObjCeleste> s_getObjets (Galaxie g) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.C1E86127-C69D-BA62-85EF-C18CEB3226B1]
+    // </editor-fold> 
+    public static ObjCeleste s_getObjet (int num) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.A356380E-FA38-C98B-BD23-02631D7C6C1C]
+    // </editor-fold> 
+    public static void creerObjFroid (String nom, int rayonOrbite, int diametre, int periode, ObjCeleste centreOrbite) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.E3C56E34-E174-5A49-FB76-D7CEB2386E55]
+    // </editor-fold> 
+    public static void creerEtoile (String nom, int magnitude, char age_lettre, Galaxie galaxie) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.6E2F61E6-B458-AFD7-8899-BE6F07A282A5]
+    // </editor-fold> 
+    public static void creerGalaxie (String nom, String type, int eloignement) {
     }
 
 }

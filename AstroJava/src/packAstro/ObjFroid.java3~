@@ -61,21 +61,16 @@ public abstract class ObjFroid extends ObjCeleste {
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.77011114-891B-9EFA-64CE-427FD9352FDA]
+    // </editor-fold> 
+    public void creerObjetFroid (String nom, int rayonOrbite, int diametre, int periode, ObjCeleste centreOrbite) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.00AEA4DA-A61D-5F56-ACA3-2E02CE9E10F7]
     // </editor-fold> 
     public ObjFroid () {
         
-    }
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.DB5B14C9-1375-BD5A-01F0-E8399CF4E4B2]
-    // </editor-fold> 
-    public Galaxie getGalaxie () {
-        return null;
-    }
-    
-    public int getDiametre() {
-        return diametre;
     }
 
 }

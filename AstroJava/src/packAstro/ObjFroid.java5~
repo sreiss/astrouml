@@ -73,10 +73,6 @@ public abstract class ObjFroid extends ObjCeleste {
     public Galaxie getGalaxie () {
         return null;
     }
-    
-    public int getDiametre() {
-        return diametre;
-    }
 
 }
 

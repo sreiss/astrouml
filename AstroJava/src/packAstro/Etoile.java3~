@@ -7,11 +7,6 @@ package packAstro;
 public abstract class Etoile extends ObjCeleste {
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.51214FDF-16ED-8AA5-3B01-89BC081A7D05]
-    // </editor-fold> 
-    private Galaxie galaxie;
-
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.FC59270B-EEA3-D62E-32DA-A0B650974291]
     // </editor-fold> 
     private static final int ETOILE = 4;
@@ -27,10 +22,9 @@ public abstract class Etoile extends ObjCeleste {
     private char ageLettre;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.DF14E4CB-5136-153E-DFB6-D829C2724E05]
+    // #[regen=yes,id=DCE.8C1B7942-8493-4FAD-601F-9EB499A9A7AA]
     // </editor-fold> 
-    public Etoile () {
-    }
+    private Galaxie galaxie;
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.364061EA-8F89-4037-0F74-289687D76A61]
@@ -40,14 +34,27 @@ public abstract class Etoile extends ObjCeleste {
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.24E96F7F-A8FB-E5F1-4E57-5358BE5981EC]
+    // #[regen=yes,id=DCE.3050F754-130A-D834-2EF9-0D498B7143C8]
     // </editor-fold> 
-    public Galaxie getGalaxie () {
+    public void creerEtoile (String nom, int magnitude, char age-lettre, Galaxie galaxie) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.DF14E4CB-5136-153E-DFB6-D829C2724E05]
+    // </editor-fold> 
+    public <<CREATE>> () {
         return null;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,regenBody=yes,id=DCE.28E51D75-6AB4-83FA-057B-D4A09008C037]
+    // #[regen=yes,regenBody=yes,id=DCE.FCDE95E8-9850-3BF3-0572-5C9274E303C1]
+    // </editor-fold> 
+    public Galaxie getGalaxie () {
+        return galaxie;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.FA2AC710-52EA-52BD-AAD4-C3C1490D8567]
     // </editor-fold> 
     public void setGalaxie (Galaxie val) {
         this.galaxie = val;

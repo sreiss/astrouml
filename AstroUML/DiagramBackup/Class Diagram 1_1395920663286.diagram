@@ -1,6 +1,6 @@
-<XMI xmi.version="1.2"  xmlns:UML="org.omg.xmi.namespace.UML"  timestamp="25 mars 2014 14:39:55 CET" >
+<XMI xmi.version="1.2"  xmlns:UML="org.omg.xmi.namespace.UML"  timestamp="27 mars 2014 12:44:23 CET" >
 <XMI.content>
-<UML:Diagram isVisible="false"  zoom="1.0"  name="Class Diagram 1"  xmi.id="DCE.1BFCB301-5086-2184-70DF-B8D042642C1D" >
+<UML:Diagram isVisible="false"  zoom="1.0"  name="Class Diagram 1"  xmi.id="DCE.D9BB4385-8505-E62D-FB97-F7DC4D0DD384" >
 <UML:GraphElement.position>
      <XMI.field>0</XMI.field>
      <XMI.field>0</XMI.field>
@@ -18,7 +18,7 @@
 <UML:Property value="DCE.4CEDBB37-07F8-6B0E-6EB9-672D3E817355"  xmi.id="Property2_PEID"  key="netbeans-diagram-projectID" />
 </UML:DiagramElement.property>
 <UML:GraphElement.semanticModel>
-<UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.1BFCB301-5086-2184-70DF-B8D042642C1D"  typeinfo="Class Diagram" />
+<UML:SimpleSemanticModelElement presentation=""  xmi.id="DCE.D9BB4385-8505-E62D-FB97-F7DC4D0DD384"  typeinfo="Class Diagram" />
 </UML:GraphElement.semanticModel>
 <UML:GraphElement.contained>
 </UML:GraphElement.contained>

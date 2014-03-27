@@ -16,7 +16,7 @@ public class Univers {
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.3A28CE60-1D14-AF3E-376F-17873C6C177D]
     // </editor-fold> 
-    private static ArrayList<Galaxie> s_galaxies;
+    private static ArrayList<Galaxie> s_galaxies = new ArrayList();
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.007C29D3-A5E4-CB42-9305-5F4A171C77DB]
@@ -59,7 +59,7 @@ public class Univers {
     
     public static Etoile s_getSoleil() {
         for (Galaxie g : s_galaxies) {
-            for (Etoile e : g.ListeEtoiles()) {
+            for (Etoile e : g.listeEtoiles()) {
                 if (e.getNom().equalsIgnoreCase("soleil")) {
                     return e;
                 }
@@ -80,16 +80,31 @@ public class Univers {
     // #[regen=yes,regenBody=yes,id=DCE.020981A7-1EAA-C919-1E47-5CEF81DBF05D]
     // </editor-fold> 
     public static ArrayList<ObjCeleste> getObjcelestes () {
-        return null;
+        ArrayList<ObjCeleste> obj = new ArrayList();
+        for(Galaxie g : Univers.s_galaxies)
+            obj.addAll(Univers.s_getObjets(g));
+        return obj;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
     // #[regen=yes,id=DCE.8A6CA7AE-AC12-D371-99C8-E245B5979F5A]
     // </editor-fold> 
     public static ArrayList<ObjCeleste> s_getObjets (Galaxie g) {
+        ArrayList<ObjCeleste> objs = new ArrayList();
         if(g instanceof Galaxie) {
-            
+            for(Etoile e : g.listeEtoiles()) {
+                objs.add(e);
+                for(ObjFroid o : e.getSatellites()) {
+                    objs.add(o);
+                    if(o.nbDeSatellites() != 0) {
+                        for(ObjFroid s : o.getSatellites()) 
+                            objs.add(s);
+                    }
+                }
+            }
+            return objs;
         }
+        return null;
     }
 
     // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
@@ -99,27 +114,13 @@ public class Univers {
         if(num > Univers.s_nextCodeObj)
             return null;
         boolean found = false;
-        ObjCeleste obj;
+        ObjCeleste obj = null;
         while(!found) {
             for(Galaxie g : Univers.s_galaxies) {
-                for(Etoile e : g.listeEtoiles()) {
-                    if(e.getCodeObj() == num) {
-                        obj = e;
+                for(ObjCeleste o : Univers.s_getObjets(g)) {
+                    if(o.getCodeObj() == num) {
+                        obj = o;
                         found = true;
-                    } else {
-                        for (ObjFroid o : e.getSatellites()) {
-                            if (o.getCodeObj() == num && o.nbDeSatellites() != 0) {
-                                obj = o;
-                                found = true;
-                            } else if (o.nbDeSatellites() != 0){
-                               for (ObjFroid s : o.getSatellites()) {
-                                   if (s.getCodeObj() == num) {
-                                       obj = s;
-                                       found = false;
-                                   }
-                               }
-                            }
-                        }
                     }
                 }
             }
